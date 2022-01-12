@@ -1,0 +1,15 @@
+.introContainer {
+  text-align: center;
+}
+
+.title {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: bolder;
+  font-size: 3em;
+}
+
+.subTitle {
+  font-family: "Be Vietnam Pro", sans-serif;
+  margin-bottom: 25px;
+  font-size: 1.5em;
+}

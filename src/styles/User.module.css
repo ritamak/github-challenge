@@ -1,0 +1,76 @@
+.pageWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  color: black;
+  margin-top: -100px;
+}
+
+.userContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 40px;
+  background: red;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 15px;
+  padding: 5px 0px 5px 0px;
+}
+
+.userList {
+  color: black;
+}
+
+.repoBox {
+  overflow: scroll;
+  border: 1px solid black;
+  width: 95%;
+  padding: 10px 40px 10px 40px;
+  background: black;
+  height: auto;
+  max-height: inherit;
+  color: white;
+}
+
+.repoBoxWrapper {
+  width: 100%;
+  background: black;
+  max-height: 230px !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.userImage {
+  max-width: 20%;
+  height: auto;
+  border-radius: 50px;
+}
+
+@media (min-width: 450px) {
+  .pageWrapper {
+    width: 90%;
+    padding: 0px 100px 0px 100px;
+  }
+}
+
+@media (min-width: 600px) {
+  .pageWrapper {
+    width: 80%;
+    padding: 0px 100px 0px 100px;
+  }
+}
+
+@media (min-width: 800px) {
+  .pageWrapper {
+    width: 60%;
+    padding: 0px 100px 0px 100px;
+  }
+}

@@ -1,0 +1,16 @@
+.navbar {
+  background: black;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+.navlink {
+  color: white;
+  text-decoration: none;
+  margin-right: 50px;
+  font-weight: bolder;
+}

@@ -1,0 +1,26 @@
+.searchForm {
+  border: 4px solid black;
+  border-radius: 50px;
+  padding: 10px;
+}
+
+.searchInput {
+  border: none !important;
+}
+
+.searchInput:focus,
+input:focus {
+  outline: none;
+}
+
+*:focus {
+  outline: none;
+}
+
+.searchButton {
+  border-radius: 50px;
+  color: white;
+  background: black;
+  padding-left: 10px;
+  padding-right: 10px;
+}
