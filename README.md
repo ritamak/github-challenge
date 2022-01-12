@@ -32,4 +32,4 @@ User information displayed in the User page:
 - Total number of repositories
 - List of repositories (repository name and description)
 
-You can see the project hosted [here](https://pip.pypa.io/en/stable/).
+You can see the project hosted [here](https://gitchallenge-ritamak.netlify.app/).
