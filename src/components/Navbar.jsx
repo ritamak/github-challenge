@@ -1,20 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import classes from "../styles/Navbar.module.css";
-import { useLocation } from "react-router-dom";
+import { useParams } from "react-router-dom";
 
 const Navbar = () => {
-  const location = useLocation();
+  const params = useParams();
   return (
     <nav className={classes.navbar}>
-      {location.pathname !== "/" && (
+      {params.login && (
         <Link to="/" className={classes.navlink}>
           <i class="fa fa-search"></i> Search
         </Link>
       )}
-      {location.pathname === "/" && (
-        <p className={classes.navlink}>Rita Mak | Challenge</p>
-      )}
+      {!params.login && <p className={classes.navlink}>Rita Mak | Challenge</p>}
     </nav>
   );
 };

@@ -18,7 +18,7 @@ const User = () => {
         )
           .then((response) => response.json())
           .then((data) => {
-            console.log("repos: ", data);
+            console.log("data", data);
             setUserRepos(data);
           })
           .catch((error) => console.error(error));
@@ -59,7 +59,6 @@ const User = () => {
           <div className={classes.repoBoxWrapper}>
             <div className={classes.repoBox}>
               {userRepos.map((repo, index) => {
-                console.log(repo);
                 return (
                   <li key={index}>
                     <a href={repo.html_url}>{repo.full_name}</a>

@@ -7,14 +7,11 @@ const SearchBar = () => {
 
   const searchHandler = async (event) => {
     event.preventDefault();
-
     await fetch(`https://api.github.com/users/${event.target.search.value}`)
       .then((response) => response.json())
-
       .then((data) => {
         navigate(`/${data.login}`, { replace: true });
       })
-
       .catch((error) => console.error(error));
   };
   return (
